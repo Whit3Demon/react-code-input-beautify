@@ -7,16 +7,16 @@
 To install the package, use npm or yarn:
 
 ```bash
-npm install your-package-name
+npm install react-code-input-beautify
 # or
-yarn add your-package-name
+yarn add react-code-input-beautify
 ```
 
 ## Usage
 ```tsx
 import React, { useState } from "react";
-import { CodeInput } from "your-package-name";
-import "./index.css"; // Ensure your CSS is correctly imported
+import { CodeInput } from "react-code-input-beautify";
+import "./index.css";
 
 const App = () => {
   const [code, setCode] = useState("");
@@ -36,6 +36,8 @@ const App = () => {
       onChange={handleChange}
       onSubmitEndCode={handleSubmitEndCode}
       condition="alphanumeric"
+      classNameInput="example-classname-for-inputs"
+      classNameInputsWrapper="example-classname-for-inputs-wrapper"
       typeLetterCase="upperCase"
       placeholder="______"
     />

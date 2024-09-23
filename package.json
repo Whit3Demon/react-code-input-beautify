@@ -1,7 +1,7 @@
 {
   "name": "react-code-input-beautify",
   "description": "This React package allows you to easily add a code input component to your applications. It provides maximum and flexible functionality, helping you to make the UX more engaging and accessible for users, without unnecessary effort.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "lib/lib.umd.js",
   "module": "lib/lib.mjs",
   "types": "lib/lib.d.ts",
