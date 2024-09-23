@@ -1,15 +1,13 @@
 {
   "name": "react-code-input-beautify",
   "description": "This React package allows you to easily add a code input component to your applications. It provides maximum and flexible functionality, helping you to make the UX more engaging and accessible for users, without unnecessary effort.",
-  "version": "0.0.3",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "./dist/*.css"
-  ],
+  "version": "0.0.5",
+  "main": "lib/lib.umd.js",
+  "module": "lib/lib.mjs",
+  "types": "lib/lib.d.ts",
   "scripts": {
-    "build": "tsup"
+    "dev": "vite",
+    "build": "vite build"
   },
   "keywords": [
     "code",
@@ -32,8 +30,11 @@
   "author": "W3D",
   "license": "MIT",
   "devDependencies": {
-    "tsup": "^8.3.0",
-    "typescript": "^5.6.2"
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.7",
+    "vite-plugin-css-injected-by-js": "^3.5.1",
+    "vite-plugin-dts": "^4.2.1"
   },
   "dependencies": {
     "@types/react": "^18.3.8",
