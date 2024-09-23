@@ -1,0 +1,31 @@
+{
+  "name": "react-code-input-beautify",
+  "description": "This React package allows you to easily add a code input component to your applications. It provides maximum and flexible functionality, helping you to make the UX more engaging and accessible for users, without unnecessary effort.",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "code",
+    "verification",
+    "code-input",
+    "verification-code",
+    "input",
+    "react"
+  ],
+  "author": "W3D",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
