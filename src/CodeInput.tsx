@@ -1,5 +1,5 @@
 import React from "react";
-import "./CodeInput.css";
+import "./index.css";
 
 type CodeInputType = {
   fields: number;
@@ -173,7 +173,7 @@ export function CodeInput({
 
   return (
     <div
-      className={`beatify-code-input ${classNameInputsWrapper}`}
+      className={`beautify-code-input-wrapper ${classNameInputsWrapper}`}
       onPaste={handlePaste}
       id={"code-input-wrapper"}
       {...WrapperProps}
@@ -188,7 +188,7 @@ export function CodeInput({
           onKeyDown={(e) => {
             handleKeyDown(e, index);
           }}
-          className={`input-cell ${classNameInput}`}
+          className={`beautify-input-cell ${classNameInput}`}
           {...InputsProps}
         />
       ))}

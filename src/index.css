@@ -1,0 +1,9 @@
+.beautify-code-input-wrapper {
+ display: flex;
+}
+
+.beautify-input-cell{
+  width:100%;
+  height: 100%;
+}
+
