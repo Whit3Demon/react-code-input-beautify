@@ -10,9 +10,9 @@ To install the package, use npm or yarn:
 npm install your-package-name
 # or
 yarn add your-package-name
+```
 
-
-Usage
+## Usage
 ```tsx
 import React, { useState } from "react";
 import { CodeInput } from "your-package-name";
